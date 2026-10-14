@@ -2,7 +2,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import React, { useEffect, useState } from "react";
 import LogoutButton from "./LogoutButton";
 
-const API_URL = "http://100.58.186.7:8081";
+const API_URL = "/api";
 
 export default function Times({ onNavigate }) {
   const { user, isAuthenticated } = useAuth0();

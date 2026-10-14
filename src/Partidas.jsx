@@ -2,8 +2,8 @@ import { useAuth0 } from "@auth0/auth0-react";
 import React, { useEffect, useState } from "react";
 import LogoutButton from "./LogoutButton";
 
-const FLASK_API_URL = "http://100.58.186.7:8081";
-const SPRING_API_URL = "http://100.58.186.7:8080";
+const FLASK_API_URL = "/api";
+const SPRING_API_URL = "/api";
 
 export default function Partidas({ onNavigate }) {
   const [partidas, setPartidas] = useState([]);
